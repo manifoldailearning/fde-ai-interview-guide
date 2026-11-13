@@ -4,7 +4,7 @@
   "round": "screen",
   "prompt": "Walk me through your background in two minutes and end with why forward deployed work.",
   "signals": [
-   "A story that ends at this role, not a resume read-out",
+   "A story that ends at this role, not a résumé read-out",
    "Evidence of building things real users depend on",
    "Fits in two minutes"
   ],
