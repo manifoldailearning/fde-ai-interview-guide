@@ -3,9 +3,9 @@
 `baseline()` is the cautious build: trusted sources only, three
 passages, and two abstention gates. `candidate()` is the change
 a stakeholder asked for after a demo where the assistant said
-"I don't know" too often: one passage (cheaper) and no coverage
-gate (answers more questions). Which one should ship is what an
-evaluation has to decide.
+"I don't know" too often: one passage (cheaper) and no
+abstention gates (answers more questions). Which one should ship
+is what an evaluation has to decide.
 """
 
 from dataclasses import dataclass

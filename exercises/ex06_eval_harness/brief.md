@@ -3,7 +3,7 @@
 **Customer:** Meridian Mutual again. After a demo where the
 assistant said "I don't know" too often, a stakeholder asked for a
 change: show the model one passage instead of three (cheaper) and
-drop the coverage gate (fewer refusals). That build is
+drop the abstention gates (fewer refusals). That build is
 `fdeprep.sim.systems.candidate()`. The build in production is
 `baseline()`. Both expose `.answer(question)`, `.config.name`
 and `.passages_sent`.

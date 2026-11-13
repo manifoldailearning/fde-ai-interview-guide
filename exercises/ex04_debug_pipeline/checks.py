@@ -27,7 +27,8 @@ def check_chunks_cover_every_word(mod):
 def check_short_documents_are_searchable(mod):
     pipe = mod.Pipeline(DOCS)
     hits = pipe.search("north", "Where is parking?")
-    assert [h["doc_id"] for h in hits] == ["north-parking"]
+    got = [h["doc_id"] for h in hits]
+    assert got == ["north-parking"], f"got {got}"
 
 
 def check_punctuation_does_not_hide_matches(mod):
