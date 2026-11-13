@@ -1,0 +1,19 @@
+ticket_id,created_at,updated_at,customer_email,priority,status,resolution,body
+T-001,2026-03-02 09:15,2026-03-02 11:00, Asha.Rao@Example.com ,P1,Resolved,1h 45m,"Payment page down. Call me on +91 98450 12345."
+T-002,02/03/2026 10:05,02/03/2026 12:30,ben@corvane.example,High,closed,95,Dispatch screen frozen
+T-003,"Mar 2, 2026 11:20 AM","Mar 3, 2026 9:00 AM",li.wei@example.com,medium,Pending,,Label printer jams
+T-004,2026-03-03T08:00:00Z,2026-03-03T09:00:00Z,omar@example.com,urgent,pending,,Tracking API returns 500 for all loads
+T-004,2026-03-03T08:00:00Z,2026-03-03T10:10:00Z,omar@example.com,urgent,RESOLVED,2h 10m,Tracking API returns 500 for all loads
+T-005,2026-03-03 13:40,2026-03-03 13:45,priya@example.com,low,open,N/A,Please update my email to priya.n@example.org
+T-002,02/03/2026 10:05,02/03/2026 16:00,BEN@corvane.example,High,closed,235,Dispatch screen frozen
+T-006,03/03/2026 15:00,04/03/2026 09:30,ben@corvane.example,2,solved,1110,Route optimizer ignores weight limits
+T-007,"Mar 4, 2026 7:05 PM","Mar 4, 2026 8:00 PM",ASHA.RAO@example.com,P1,Closed,55m,"Driver app crash on login, contact 080-4123-4567"
+T-008,2026-03-05 10:00,2026-03-05 10:00,sam@example.com,,Open,,Question about invoices
+T-009,1772733600,1772739000,omar@example.com,P2,resolved,90,Duplicate shipment created
+T-010,05/03/2026 09:00,06/03/2026 09:00,li.wei@example.com,critical,resolved,24h,Warehouse scanner offline
+T-011,2026-03-06 14:30,2026-03-06 15:15,omar@example.com,P2,Resolved,45,Rates table wrong for zone 4
+T-012,2026-03-06 16:00,2026-03-07 10:00,ben@corvane.example,normal,closed,1080,Report export slow
+T-013,"Mar 7, 2026 9:00 AM","Mar 7, 2026 9:20 AM",priya@example.com,4,Resolved,20m,Typo on invoice footer
+T-014,07/03/2026 11:00,07/03/2026 11:00,sam@example.com,P3,open,,"Need access for a new hire, email sam.k@example.com"
+T-015,2026-03-08 08:30,2026-03-08 12:30,li.wei@example.com,1,resolved,4h,Customs documents not generated
+T-016,2026-03-08 09:00,2026-03-08 09:40,asha.rao@example.com,P2,Closed,40m,Wrong ETA on shipment

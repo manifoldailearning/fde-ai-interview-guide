@@ -1,0 +1,1102 @@
+[
+ {
+  "id": "S01",
+  "round": "screen",
+  "prompt": "Walk me through your background in two minutes and end with why forward deployed work.",
+  "signals": [
+   "A story that ends at this role, not a resume read-out",
+   "Evidence of building things real users depend on",
+   "Fits in two minutes"
+  ],
+  "follow_up": "What part of your current job would you miss?"
+ },
+ {
+  "id": "S02",
+  "round": "screen",
+  "prompt": "What do you think a forward deployed engineer does day to day?",
+  "signals": [
+   "Building and customer work in the same week",
+   "Ownership through to production and adoption",
+   "Realism about travel, ambiguity and context switching"
+  ],
+  "follow_up": "Which part of that do you expect to find hardest?"
+ },
+ {
+  "id": "S03",
+  "round": "screen",
+  "prompt": "Why work on customers' problems rather than on a product team?",
+  "signals": [
+   "A real preference backed by past choices",
+   "Understands the trade: less depth in one codebase, more range",
+   "No disdain for product engineering"
+  ],
+  "follow_up": "When have you enjoyed customer-facing work the most?"
+ },
+ {
+  "id": "S04",
+  "round": "screen",
+  "prompt": "Tell me about a system you built that real users depend on today.",
+  "signals": [
+   "Specific users and what they rely on",
+   "Your part, stated plainly",
+   "What it took to keep it running"
+  ],
+  "follow_up": "What broke in its first month?"
+ },
+ {
+  "id": "S05",
+  "round": "screen",
+  "prompt": "How do you feel about travel and working on site with customers?",
+  "signals": [
+   "An honest answer with any limits stated up front",
+   "Understands why on-site time matters",
+   "No over-promising"
+  ],
+  "follow_up": "What would make on-site work hard for you?"
+ },
+ {
+  "id": "S06",
+  "round": "screen",
+  "prompt": "Which languages and tools are you productive in on day one?",
+  "signals": [
+   "Honest depth versus familiarity",
+   "Python plus one systems or web stack is common",
+   "How fast you pick up a customer's stack"
+  ],
+  "follow_up": "Tell me about the last stack you had to learn under pressure."
+ },
+ {
+  "id": "S07",
+  "round": "screen",
+  "prompt": "What is the most ambiguous project you have taken on?",
+  "signals": [
+   "How you created structure",
+   "Who you talked to first",
+   "What you shipped and how you knew it worked"
+  ],
+  "follow_up": "What would you do differently?"
+ },
+ {
+  "id": "S08",
+  "round": "screen",
+  "prompt": "How do you keep up with changes in models and AI tooling?",
+  "signals": [
+   "A concrete habit, not a list of newsletters",
+   "Learning by building and measuring",
+   "Healthy skepticism of announcements"
+  ],
+  "follow_up": "What changed your mind recently?"
+ },
+ {
+  "id": "S09",
+  "round": "screen",
+  "prompt": "Describe a time you explained a technical decision to a non-technical executive.",
+  "signals": [
+   "Started from their goal, not the technology",
+   "Gave a clear recommendation and its cost",
+   "Checked understanding"
+  ],
+  "follow_up": "What did they push back on?"
+ },
+ {
+  "id": "S10",
+  "round": "screen",
+  "prompt": "What kind of customer problem would you not want to work on?",
+  "signals": [
+   "A considered answer with a reason",
+   "Self-awareness",
+   "Not a list of everything you dislike"
+  ],
+  "follow_up": "Have you ever worked on one anyway?"
+ },
+ {
+  "id": "S11",
+  "round": "screen",
+  "prompt": "Where do you want to be in three years?",
+  "signals": [
+   "A direction connected to this role",
+   "Open to how the role grows",
+   "Not a title chase"
+  ],
+  "follow_up": "What would make this role a step toward that?"
+ },
+ {
+  "id": "S12",
+  "round": "screen",
+  "prompt": "What questions do you have for us?",
+  "signals": [
+   "Questions about customers, scope of ownership and how success is measured",
+   "Shows research",
+   "Asks about the team you would join"
+  ],
+  "follow_up": "What would make you turn down an offer from us?"
+ },
+ {
+  "id": "C01",
+  "round": "case",
+  "prompt": "A logistics customer says: 'We want an AI agent for dispatch.' Where do you start?",
+  "signals": [
+   "Separates the requested solution from the problem",
+   "Asks about the workflow, volumes and the cost of errors",
+   "Ends with a small, testable first step"
+  ],
+  "follow_up": "What would make you advise against an agent here?"
+ },
+ {
+  "id": "C02",
+  "round": "case",
+  "prompt": "A bank wants AI to cut the time it takes to answer customer complaints. Structure the problem.",
+  "signals": [
+   "Maps the complaint workflow and where time goes",
+   "Separates waiting time from work time",
+   "Names regulatory constraints early"
+  ],
+  "follow_up": "Which step would you automate first, and which never?"
+ },
+ {
+  "id": "C03",
+  "round": "case",
+  "prompt": "A hospital group wants an assistant that drafts replies to patient messages. What do you need to know before proposing anything?",
+  "signals": [
+   "Clinical risk and who approves each reply",
+   "Message volumes, types and current turnaround",
+   "Data handling and where the system may run"
+  ],
+  "follow_up": "Which message types stay out of scope in phase one?"
+ },
+ {
+  "id": "C04",
+  "round": "case",
+  "prompt": "The customer's VP wants a demo in two weeks and production in six. How do you scope it?",
+  "signals": [
+   "Separates a demo from a production system out loud",
+   "Proposes a narrow slice that can really ship",
+   "States what must be true by week six"
+  ],
+  "follow_up": "What do you say if the VP rejects your slice?"
+ },
+ {
+  "id": "C05",
+  "round": "case",
+  "prompt": "A manufacturer wants AI to predict machine failures. They have three years of sensor data and no failure labels. What do you propose?",
+  "signals": [
+   "Finds the labels: maintenance logs, work orders, operators",
+   "Questions whether prediction is the real need",
+   "Plans a baseline before any model"
+  ],
+  "follow_up": "How would you know the model is better than the current maintenance schedule?"
+ },
+ {
+  "id": "C06",
+  "round": "case",
+  "prompt": "An insurer's claims team says the AI pilot 'isn't accurate enough.' How do you find out what that means?",
+  "signals": [
+   "Asks for examples and builds a labelled set",
+   "Splits error types by business cost",
+   "Agrees what 'enough' means as a number"
+  ],
+  "follow_up": "What if the team cannot agree on the right answers?"
+ },
+ {
+  "id": "C07",
+  "round": "case",
+  "prompt": "The customer wants the AI to issue refunds automatically. What is your recommendation?",
+  "signals": [
+   "Separates recommending from executing",
+   "Limits, approvals and audit before autonomy",
+   "A path to more autonomy based on evidence"
+  ],
+  "follow_up": "What evidence would justify raising the automatic limit?"
+ },
+ {
+  "id": "C08",
+  "round": "case",
+  "prompt": "How would you estimate whether this use case is worth building at all?",
+  "signals": [
+   "Baseline volume, time and cost today",
+   "A defensible range for the improvement, not a promise",
+   "Cost to build and run, and a break-even view"
+  ],
+  "follow_up": "Which of your inputs is the weakest?"
+ },
+ {
+  "id": "C09",
+  "round": "case",
+  "prompt": "The customer has 40,000 internal documents in five systems and wants a chatbot over all of it. How do you phase it?",
+  "signals": [
+   "Starts from user questions, not from the corpus",
+   "One system and one team first",
+   "Access control and freshness from day one"
+  ],
+  "follow_up": "How do you choose the first system?"
+ },
+ {
+  "id": "C10",
+  "round": "case",
+  "prompt": "Which success metric would you agree with the customer for a ticket-triage pilot, and what baseline do you need?",
+  "signals": [
+   "A metric tied to the business outcome",
+   "A measured baseline over the same period",
+   "Guardrail metrics alongside the target"
+  ],
+  "follow_up": "What would you do if the baseline does not exist?"
+ },
+ {
+  "id": "C11",
+  "round": "case",
+  "prompt": "The customer's data cannot leave their network. What changes in your plan?",
+  "signals": [
+   "Model hosting options and their trade-offs",
+   "Who operates it and how updates happen",
+   "Evaluation without exporting data"
+  ],
+  "follow_up": "What capability do you lose, and how do you tell them?"
+ },
+ {
+  "id": "C12",
+  "round": "case",
+  "prompt": "Two departments want different things from the same pilot. How do you handle it?",
+  "signals": [
+   "Finds the decision owner",
+   "Makes the trade-off explicit in writing",
+   "Sequences instead of splitting the effort"
+  ],
+  "follow_up": "What if the sponsor refuses to choose?"
+ },
+ {
+  "id": "C13",
+  "round": "case",
+  "prompt": "In week two you find that the process the customer described is not the process people follow. What do you do?",
+  "signals": [
+   "Treats it as evidence, not embarrassment",
+   "Updates the plan and tells the sponsor early",
+   "Revisits success metrics and scope"
+  ],
+  "follow_up": "How do you raise it without blaming the customer?"
+ },
+ {
+  "id": "C14",
+  "round": "case",
+  "prompt": "Estimate the monthly model cost for an assistant used by 400 agents, 20 requests each per working day.",
+  "signals": [
+   "States assumptions for tokens and price",
+   "Shows the arithmetic",
+   "Names the levers that change the answer most"
+  ],
+  "follow_up": "How would caching or a smaller model change it?"
+ },
+ {
+  "id": "C15",
+  "round": "case",
+  "prompt": "The customer asks: 'Why can't we just buy a chatbot product?' How do you answer?",
+  "signals": [
+   "Takes the question seriously",
+   "Compares on their requirements, not on taste",
+   "Recommends buying when buying fits"
+  ],
+  "follow_up": "When would you tell them to buy?"
+ },
+ {
+  "id": "C16",
+  "round": "case",
+  "prompt": "What would make you recommend that the customer not use AI for this problem?",
+  "signals": [
+   "Deterministic rules already solve it",
+   "Errors are too costly with no review step",
+   "No data or no owner"
+  ],
+  "follow_up": "Have you ever made that recommendation?"
+ },
+ {
+  "id": "C17",
+  "round": "case",
+  "prompt": "How do you decide what goes in phase one and what waits?",
+  "signals": [
+   "Value, risk and dependency, made explicit",
+   "Something real ships in phase one",
+   "Deferred items are written down with a reason"
+  ],
+  "follow_up": "What is the most common thing teams wrongly put in phase one?"
+ },
+ {
+  "id": "C18",
+  "round": "case",
+  "prompt": "The pilot hit its metric but the frontline team does not use it. Diagnose.",
+  "signals": [
+   "Talks to users and watches them work",
+   "Checks workflow fit, trust and incentives",
+   "Measures adoption, not only accuracy"
+  ],
+  "follow_up": "What would you change first?"
+ },
+ {
+  "id": "B01",
+  "round": "build",
+  "prompt": "Build a service that answers questions from these documents, with citations. You have 60 minutes.",
+  "signals": [
+   "Gets a thin end-to-end path working early",
+   "Decides when to abstain in code",
+   "Tests on a handful of known questions before polishing"
+  ],
+  "follow_up": "What would you build in the next 60 minutes?"
+ },
+ {
+  "id": "B02",
+  "round": "build",
+  "prompt": "Clean this customer export and report the median resolution time by priority.",
+  "signals": [
+   "Inspects the data before writing code",
+   "Writes down assumptions to confirm with the customer",
+   "Fails loudly on values it does not recognize"
+  ],
+  "follow_up": "Which assumption would change the answer most?"
+ },
+ {
+  "id": "B03",
+  "round": "build",
+  "prompt": "Build an agent that handles order tickets with these four tools. What do you build first?",
+  "signals": [
+   "The loop with a step budget and parsing",
+   "Policy checks in code before side effects",
+   "Escalation that reaches a human"
+  ],
+  "follow_up": "How do you test it without a real model?"
+ },
+ {
+  "id": "B04",
+  "round": "build",
+  "prompt": "How would you make this prototype safe to show the customer's leadership tomorrow?",
+  "signals": [
+   "Narrows the demo to what works",
+   "Guards against the known bad inputs",
+   "Prepares a fallback and says what is not ready"
+  ],
+  "follow_up": "What do you never do in a live demo?"
+ },
+ {
+  "id": "B05",
+  "round": "build",
+  "prompt": "Retrieval returns the right document but the answer is wrong. What do you check?",
+  "signals": [
+   "Chunking and what context the model actually saw",
+   "Prompt and instruction conflicts",
+   "Whether the answer needs reasoning across passages"
+  ],
+  "follow_up": "How would you turn this into a regression test?"
+ },
+ {
+  "id": "B06",
+  "round": "build",
+  "prompt": "Write a client for this paginated, rate-limited API.",
+  "signals": [
+   "Pagination until the cursor ends",
+   "Retry-After and backoff",
+   "Token refresh and idempotent writes"
+  ],
+  "follow_up": "Which call is the dangerous one to retry?"
+ },
+ {
+  "id": "B07",
+  "round": "build",
+  "prompt": "How would you test an LLM-backed function in CI?",
+  "signals": [
+   "Deterministic tests around the model call",
+   "A small labelled set with thresholds",
+   "Recorded responses or a fake for unit tests"
+  ],
+  "follow_up": "How do you stop flaky tests from being ignored?"
+ },
+ {
+  "id": "B08",
+  "round": "build",
+  "prompt": "You have 20 minutes left and two features unfinished. What do you do?",
+  "signals": [
+   "Says it out loud and picks one",
+   "Leaves the code runnable",
+   "Explains what is missing and how it would be done"
+  ],
+  "follow_up": "How do you decide which one?"
+ },
+ {
+  "id": "B09",
+  "round": "build",
+  "prompt": "Add structured output to this extraction step and handle malformed responses.",
+  "signals": [
+   "Schema validation, not string matching",
+   "A bounded retry with the error fed back",
+   "A safe failure path when retries run out"
+  ],
+  "follow_up": "What do you log when validation fails?"
+ },
+ {
+  "id": "B10",
+  "round": "build",
+  "prompt": "How would you let the customer's team change prompts without breaking production?",
+  "signals": [
+   "Prompts versioned like code",
+   "An eval gate before release",
+   "Rollback in minutes"
+  ],
+  "follow_up": "Who should own the eval set?"
+ },
+ {
+  "id": "B11",
+  "round": "build",
+  "prompt": "How would you log this agent so the customer's audit team can follow a decision?",
+  "signals": [
+   "Every tool call with inputs, outputs and the policy result",
+   "Correlation by ticket or request id",
+   "Personal data masked or excluded"
+  ],
+  "follow_up": "How long would you keep these logs?"
+ },
+ {
+  "id": "B12",
+  "round": "build",
+  "prompt": "Parse 300 PDF invoices into a table. What is your plan for the first hour?",
+  "signals": [
+   "Looks at a sample first and groups layouts",
+   "Builds an extraction check on a few hand-labelled invoices",
+   "Plans for the ones that will not parse"
+  ],
+  "follow_up": "What accuracy would you report, and how?"
+ },
+ {
+  "id": "D01",
+  "round": "debug",
+  "prompt": "Answers were fine last week and are wrong today. Nothing in our code changed. Where do you look?",
+  "signals": [
+   "Data, model version and configuration changes",
+   "Reproduces with a known question",
+   "Compares against a saved good run"
+  ],
+  "follow_up": "How do you make this faster to diagnose next time?"
+ },
+ {
+  "id": "D02",
+  "round": "debug",
+  "prompt": "A user from one tenant saw another tenant's data in an answer. Walk me through your first hour.",
+  "signals": [
+   "Treats it as a security incident first",
+   "Contains: disable or scope the path",
+   "Finds the leak path: retrieval filter, cache key, logs"
+  ],
+  "follow_up": "What do you tell the customer, and when?"
+ },
+ {
+  "id": "D03",
+  "round": "debug",
+  "prompt": "Latency doubled after the customer added 10,000 documents. Diagnose.",
+  "signals": [
+   "Measures where the time goes",
+   "Checks index, retrieval size and context length",
+   "Fixes the cause, not only adds hardware"
+  ],
+  "follow_up": "What would you monitor from now on?"
+ },
+ {
+  "id": "D04",
+  "round": "debug",
+  "prompt": "The agent loops, calling the same tool again and again. Likely causes and fixes?",
+  "signals": [
+   "Tool results not reaching the model, or ignored",
+   "No stopping condition or budget",
+   "A tool error the model cannot recover from"
+  ],
+  "follow_up": "Where do you enforce the budget?"
+ },
+ {
+  "id": "D05",
+  "round": "debug",
+  "prompt": "The nightly sync sometimes misses records. How do you find out why?",
+  "signals": [
+   "Pagination and cursor handling",
+   "Time zones and update windows",
+   "Retries that skip instead of repeat"
+  ],
+  "follow_up": "How would you prove the fix?"
+ },
+ {
+  "id": "D06",
+  "round": "debug",
+  "prompt": "The model's JSON output fails to parse 3 percent of the time. What do you do?",
+  "signals": [
+   "Collects the failures and looks at them",
+   "Schema-constrained output if available",
+   "Retry with the error, then a safe fallback"
+  ],
+  "follow_up": "Is 3 percent acceptable? When?"
+ },
+ {
+  "id": "D07",
+  "round": "debug",
+  "prompt": "Model costs tripled overnight. How do you investigate?",
+  "signals": [
+   "Usage by route, tenant and prompt version",
+   "Retries and loops",
+   "A cap or alert to stop the bleeding"
+  ],
+  "follow_up": "What guardrail would have caught this?"
+ },
+ {
+  "id": "D08",
+  "round": "debug",
+  "prompt": "An integration works in the test tenant and fails in production with 401s after about an hour. Why?",
+  "signals": [
+   "Token expiry without refresh",
+   "Different credential or scope in production",
+   "Clock skew"
+  ],
+  "follow_up": "How would you test for this before go-live?"
+ },
+ {
+  "id": "D09",
+  "round": "debug",
+  "prompt": "Here is a failing test and a 200-line module. Talk me through how you debug it.",
+  "signals": [
+   "Reads the failure message and the test first",
+   "Narrows with prints or a debugger, one hypothesis at a time",
+   "Explains the fix and adds a test"
+  ],
+  "follow_up": "What if you cannot reproduce it locally?"
+ },
+ {
+  "id": "D10",
+  "round": "debug",
+  "prompt": "The customer says the bot made something up. How do you reproduce and fix it?",
+  "signals": [
+   "Gets the exact input, time and user",
+   "Checks what context the model saw",
+   "Adds the case to the eval set before fixing"
+  ],
+  "follow_up": "How do you explain the fix to the customer?"
+ },
+ {
+  "id": "G01",
+  "round": "design",
+  "prompt": "Design an assistant for a bank's complaint handlers, deployed inside the bank's own cloud.",
+  "signals": [
+   "Requirements and constraints first",
+   "Data flow with trust boundaries",
+   "Evaluation, human review and audit"
+  ],
+  "follow_up": "What changes if the bank needs answers in two languages?"
+ },
+ {
+  "id": "G02",
+  "round": "design",
+  "prompt": "Design document Q&A over 2 million pages with access controls that mirror the source systems.",
+  "signals": [
+   "Permission-aware retrieval, checked at query time",
+   "Incremental indexing",
+   "Citations and freshness"
+  ],
+  "follow_up": "What happens when permissions change in the source system?"
+ },
+ {
+  "id": "G03",
+  "round": "design",
+  "prompt": "Design an agent that can take actions in a customer's ERP system.",
+  "signals": [
+   "Tool layer with policy checks and limits",
+   "Human approval for high-impact actions",
+   "Idempotency and audit"
+  ],
+  "follow_up": "How do you test it without touching production?"
+ },
+ {
+  "id": "G04",
+  "round": "design",
+  "prompt": "How do you design for a customer whose data must stay in one country?",
+  "signals": [
+   "Region-pinned storage, processing and logs",
+   "Model hosting options in region",
+   "Proof for the auditors"
+  ],
+  "follow_up": "What about backups and support access?"
+ },
+ {
+  "id": "G05",
+  "round": "design",
+  "prompt": "Design the evaluation and release process for a customer-facing assistant.",
+  "signals": [
+   "A labelled set by slice",
+   "Gates in CI with thresholds",
+   "Monitoring and rollback after release"
+  ],
+  "follow_up": "Who signs off on a release?"
+ },
+ {
+  "id": "G06",
+  "round": "design",
+  "prompt": "Design a system that drafts replies to patient messages for clinicians to approve.",
+  "signals": [
+   "Clinician approval on every reply",
+   "Triage of urgent messages out of the AI path",
+   "Logging and review of edits"
+  ],
+  "follow_up": "How would you measure whether it saves clinicians time?"
+ },
+ {
+  "id": "G07",
+  "round": "design",
+  "prompt": "How would you serve a model inside a customer's network with no internet access?",
+  "signals": [
+   "Model artifacts, serving and updates offline",
+   "Capacity planning on their hardware",
+   "Monitoring that stays inside"
+  ],
+  "follow_up": "How do you ship an update?"
+ },
+ {
+  "id": "G08",
+  "round": "design",
+  "prompt": "Design the multi-tenant architecture for a platform your company deploys to 30 customers.",
+  "signals": [
+   "Isolation model and where tenant id is enforced",
+   "Per-tenant configuration and evals",
+   "Noisy-neighbor and cost controls"
+  ],
+  "follow_up": "When would one customer need a dedicated deployment?"
+ },
+ {
+  "id": "G09",
+  "round": "design",
+  "prompt": "How do you handle prompt injection in a system that reads customer emails?",
+  "signals": [
+   "Treats email content as untrusted data",
+   "Limits what the model can do with it",
+   "Detection and review, not only prompt wording"
+  ],
+  "follow_up": "What is the worst action this system could be tricked into?"
+ },
+ {
+  "id": "G10",
+  "round": "design",
+  "prompt": "Design human review for an AI that classifies insurance claims.",
+  "signals": [
+   "Confidence and risk-based routing",
+   "Reviewer tooling and feedback capture",
+   "Sampling of auto-approved items"
+  ],
+  "follow_up": "How do you know reviewers are not rubber-stamping?"
+ },
+ {
+  "id": "G11",
+  "round": "design",
+  "prompt": "How would you serve 200 requests per second at peak with a 2-second latency budget?",
+  "signals": [
+   "Latency budget per stage",
+   "Caching, batching and smaller models where possible",
+   "Load tests and graceful degradation"
+  ],
+  "follow_up": "What gets dropped first under overload?"
+ },
+ {
+  "id": "G12",
+  "round": "design",
+  "prompt": "What would you put in a security review package for the customer's CISO?",
+  "signals": [
+   "Data flow diagram and data inventory",
+   "Threat model including prompt injection",
+   "Controls, logging and incident response"
+  ],
+  "follow_up": "Which question do CISOs ask that engineers forget?"
+ },
+ {
+  "id": "G13",
+  "round": "design",
+  "prompt": "Design monitoring for an AI assistant after go-live.",
+  "signals": [
+   "Quality signals, not only uptime",
+   "Cost and latency per route",
+   "Alerts with owners and runbooks"
+  ],
+  "follow_up": "How do you sample conversations for review?"
+ },
+ {
+  "id": "G14",
+  "round": "design",
+  "prompt": "How do you hand the system over to the customer's team when you leave?",
+  "signals": [
+   "Runbooks, evals and dashboards they can operate",
+   "Training and a shadow period",
+   "Clear support boundaries"
+  ],
+  "follow_up": "How do you know the handover worked?"
+ },
+ {
+  "id": "G15",
+  "round": "design",
+  "prompt": "Design retrieval for documents that change every hour.",
+  "signals": [
+   "Change capture and incremental updates",
+   "Versioning and deletion",
+   "Freshness shown to the user"
+  ],
+  "follow_up": "What happens to cached answers?"
+ },
+ {
+  "id": "G16",
+  "round": "design",
+  "prompt": "Where would you put guardrails in an agent that can send emails on a user's behalf?",
+  "signals": [
+   "Draft by default, send with approval",
+   "Recipient and content checks in code",
+   "Rate limits and audit"
+  ],
+  "follow_up": "When would you allow sending without approval?"
+ },
+ {
+  "id": "H01",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you owned a problem end to end.",
+  "signals": [
+   "Clear ownership beyond your assigned part",
+   "Actions you personally took",
+   "A measurable or observable result"
+  ],
+  "follow_up": "What did you hand off, and to whom?"
+ },
+ {
+  "id": "H02",
+  "round": "behavioral",
+  "prompt": "Tell me about a time a customer was unhappy with your work.",
+  "signals": [
+   "Owns the part that was yours",
+   "Listened before fixing",
+   "What changed afterward"
+  ],
+  "follow_up": "How did the relationship end up?"
+ },
+ {
+  "id": "H03",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you pushed back on a customer request.",
+  "signals": [
+   "The reason was the customer's interest",
+   "Offered an alternative",
+   "Kept the relationship"
+  ],
+  "follow_up": "What would have happened if you had agreed?"
+ },
+ {
+  "id": "H04",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you shipped something under a hard deadline.",
+  "signals": [
+   "What you cut and why",
+   "How quality was protected",
+   "What you did after the deadline"
+  ],
+  "follow_up": "Would you make the same cuts again?"
+ },
+ {
+  "id": "H05",
+  "round": "behavioral",
+  "prompt": "Tell me about a mistake you made in production.",
+  "signals": [
+   "States the mistake plainly",
+   "Containment and communication",
+   "The prevention you put in place"
+  ],
+  "follow_up": "Who did you tell first?"
+ },
+ {
+  "id": "H06",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you had to learn a new domain fast.",
+  "signals": [
+   "A method for learning",
+   "Who you learned from",
+   "How you checked your understanding"
+  ],
+  "follow_up": "What did you get wrong at first?"
+ },
+ {
+  "id": "H07",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you disagreed with your manager or product team.",
+  "signals": [
+   "Disagreed with evidence, not volume",
+   "Committed once decided",
+   "Outcome and what you learned"
+  ],
+  "follow_up": "What if you had been overruled?"
+ },
+ {
+  "id": "H08",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you worked with very little direction.",
+  "signals": [
+   "Created structure",
+   "Checked in at the right moments",
+   "Delivered something usable"
+  ],
+  "follow_up": "How did you decide what mattered?"
+ },
+ {
+  "id": "H09",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you had to say no to a senior stakeholder.",
+  "signals": [
+   "The no protected something real",
+   "Said with a reason and an alternative",
+   "Trust afterward"
+  ],
+  "follow_up": "How did you prepare for the conversation?"
+ },
+ {
+  "id": "H10",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you turned field feedback into a product change.",
+  "signals": [
+   "Saw a pattern across customers",
+   "Made the case with evidence",
+   "Followed through to release"
+  ],
+  "follow_up": "What did the product team push back on?"
+ },
+ {
+  "id": "H11",
+  "round": "behavioral",
+  "prompt": "Tell me about the hardest technical problem you solved at a customer site.",
+  "signals": [
+   "Constraints you could not change",
+   "How you narrowed the cause",
+   "What you left behind for the customer"
+  ],
+  "follow_up": "What would you do differently?"
+ },
+ {
+  "id": "H12",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you were wrong about a technical decision.",
+  "signals": [
+   "Owns it without excuses",
+   "How you found out",
+   "How you corrected course"
+  ],
+  "follow_up": "How do you test your decisions now?"
+ },
+ {
+  "id": "H13",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you had to deliver bad news.",
+  "signals": [
+   "Early, not late",
+   "Facts, impact and a plan",
+   "Took questions"
+  ],
+  "follow_up": "How did they react?"
+ },
+ {
+  "id": "H14",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you simplified something complex for a customer.",
+  "signals": [
+   "Started from what they needed to decide",
+   "Removed detail without hiding risk",
+   "Checked understanding"
+  ],
+  "follow_up": "What did you leave out?"
+ },
+ {
+  "id": "H15",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you had to balance speed and quality.",
+  "signals": [
+   "Named the trade-off explicitly",
+   "Protected what could not be undone",
+   "Paid back the shortcut"
+  ],
+  "follow_up": "Where do you never cut corners?"
+ },
+ {
+  "id": "H16",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you built trust with a skeptical team.",
+  "signals": [
+   "Understood why they were skeptical",
+   "Small wins they could verify",
+   "Gave them control"
+  ],
+  "follow_up": "How long did it take?"
+ },
+ {
+  "id": "H17",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you handled conflicting priorities across two customers.",
+  "signals": [
+   "Made the conflict visible",
+   "Used impact to decide",
+   "Communicated with both"
+  ],
+  "follow_up": "Who decided in the end?"
+ },
+ {
+  "id": "H18",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you went beyond your role to unblock a project.",
+  "signals": [
+   "The blocker and why it mattered",
+   "What you did that was outside your job",
+   "Did not create a new problem"
+  ],
+  "follow_up": "Would you do it again?"
+ },
+ {
+  "id": "H19",
+  "round": "behavioral",
+  "prompt": "Tell me about a project that failed. What did you learn?",
+  "signals": [
+   "A real failure, not a disguised success",
+   "Your part in it",
+   "A lesson you have applied since"
+  ],
+  "follow_up": "What early signal did you miss?"
+ },
+ {
+  "id": "H20",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you protected a customer from a risk they did not see.",
+  "signals": [
+   "Spotted the risk",
+   "Raised it in a way they could act on",
+   "The outcome"
+  ],
+  "follow_up": "What if they had ignored you?"
+ },
+ {
+  "id": "H21",
+  "round": "behavioral",
+  "prompt": "Tell me about a time you documented or handed over work so others could run it.",
+  "signals": [
+   "What they needed to operate it",
+   "How you tested the handover",
+   "What happened after you left"
+  ],
+  "follow_up": "What did they still call you about?"
+ },
+ {
+  "id": "H22",
+  "round": "behavioral",
+  "prompt": "Why do you want to leave your current job?",
+  "signals": [
+   "Pulled toward this role, not only pushed",
+   "No complaints about people",
+   "Consistent with your story"
+  ],
+  "follow_up": "What would make you stay?"
+ },
+ {
+  "id": "R01",
+  "round": "roleplay",
+  "prompt": "I'm the customer's CTO. Your demo failed in front of my board yesterday. Explain.",
+  "signals": [
+   "Owns it without excuses",
+   "Explains cause in plain words",
+   "Concrete plan and a date"
+  ],
+  "follow_up": "What do you promise, and what do you not?"
+ },
+ {
+  "id": "R02",
+  "round": "roleplay",
+  "prompt": "I'm the head of operations. My team doesn't trust the AI. Convince me to keep the pilot.",
+  "signals": [
+   "Asks what happened before arguing",
+   "Offers changes that give the team control",
+   "Agrees a fair test with a deadline"
+  ],
+  "follow_up": "What if the team is right?"
+ },
+ {
+  "id": "R03",
+  "round": "roleplay",
+  "prompt": "I'm the CISO. Tell me why I should let your system read our email.",
+  "signals": [
+   "Starts from the data flow",
+   "Specific controls, not reassurance",
+   "Offers a narrower first scope"
+  ],
+  "follow_up": "What would you not ask me to approve?"
+ },
+ {
+  "id": "R04",
+  "round": "roleplay",
+  "prompt": "I'm the business sponsor. I want the AI to approve claims automatically next month.",
+  "signals": [
+   "Supports the goal",
+   "Shows the evidence needed and the risk",
+   "Offers a staged path"
+  ],
+  "follow_up": "What do you do if I insist?"
+ },
+ {
+  "id": "R05",
+  "round": "roleplay",
+  "prompt": "I'm a frontline agent. This tool makes my job slower. Respond.",
+  "signals": [
+   "Asks to see how they work",
+   "Takes the complaint as data",
+   "Commits to a specific follow-up"
+  ],
+  "follow_up": "What would you change this week?"
+ },
+ {
+  "id": "R06",
+  "round": "roleplay",
+  "prompt": "I'm the procurement lead. Why does this cost more than the chatbot we already license?",
+  "signals": [
+   "Compares on outcomes and requirements",
+   "Is honest about where the cheaper option is enough",
+   "Total cost, not only license"
+  ],
+  "follow_up": "What would make you recommend the cheaper option?"
+ },
+ {
+  "id": "R07",
+  "round": "roleplay",
+  "prompt": "I'm the customer's lead engineer. I think your architecture is overbuilt. Defend it.",
+  "signals": [
+   "Listens for the specific concern",
+   "Ties each component to a requirement",
+   "Willing to simplify"
+  ],
+  "follow_up": "Which component would you remove first?"
+ },
+ {
+  "id": "R08",
+  "round": "roleplay",
+  "prompt": "I'm the project sponsor. We're cutting the budget in half. What do we drop?",
+  "signals": [
+   "Protects the core outcome",
+   "Makes the trade-offs explicit",
+   "Asks what the sponsor values most"
+  ],
+  "follow_up": "What is the minimum you would still put your name to?"
+ },
+ {
+  "id": "R09",
+  "round": "roleplay",
+  "prompt": "I'm the data owner. You can't have production data for testing. What now?",
+  "signals": [
+   "Respects the constraint",
+   "Proposes alternatives: masked data, synthetic data, testing in their environment",
+   "Agrees a path to evidence"
+  ],
+  "follow_up": "What risk does that leave?"
+ },
+ {
+  "id": "R10",
+  "round": "roleplay",
+  "prompt": "Explain to our executive team, in three minutes, what the pilot proved and what it did not.",
+  "signals": [
+   "Leads with the decision they need to make",
+   "Separates measured results from hopes",
+   "A clear recommendation"
+  ],
+  "follow_up": "What number would you put on the first slide?"
+ }
+]
